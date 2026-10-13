@@ -1,0 +1,52 @@
+"""All game constants live here so they are easy to tweak."""
+
+SCREEN_WIDTH = 960
+SCREEN_HEIGHT = 540
+FPS = 60
+TITLE = "Python Adventure"
+
+# Physics (units: pixels per frame at 60 FPS)
+GRAVITY = 0.6
+MAX_FALL_SPEED = 16
+MOVE_SPEED = 5
+JUMP_SPEED = -13
+MAX_JUMPS = 2  # 2 = double jump
+
+# Player size
+PLAYER_W = 32
+PLAYER_H = 48
+
+# Colors
+SKY_TOP = (110, 190, 255)
+SKY_BOTTOM = (200, 235, 255)
+PLAYER_COLOR = (235, 90, 70)
+STONE_COLOR = (130, 130, 140)
+STONE_EDGE = (95, 95, 105)
+GRASS_COLOR = (80, 180, 70)
+
+# World
+LEVEL_WIDTH = 3200
+FALL_LIMIT = SCREEN_HEIGHT + 150  # below this the player has fallen into a pit
+PLAYER_SPAWN = (100, 400)
+HILL_FAR = (120, 185, 120)
+HILL_NEAR = (85, 160, 90)
+CLOUD_COLOR = (255, 255, 255)
+
+# Gameplay
+MAX_HEALTH = 5
+INVULN_FRAMES = 90
+HURT_BOUNCE = -8
+STOMP_BOUNCE = -10
+COIN_SCORE = 10
+ENEMY_SCORE = 50
+RESPAWN_GRACE = 60
+
+# Levels and bosses
+GROUND_Y = 480
+BOSS_HP = 5
+BOSS_STUN = 90
+BOSS_HIT_SCORE = 100
+BOSS_SCORE = 500
+GOAL_BONUS = 100
+HEART_BONUS = 25
+FADE_FRAMES = 30
